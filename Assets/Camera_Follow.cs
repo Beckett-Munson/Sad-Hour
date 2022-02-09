@@ -24,7 +24,7 @@ void Update()
 {
 var xPos = Player.transform.position.x;
 
-var BackroundSize = background.sprite.bounds.extents*2;
+var BackroundSize = background.sprite.bounds.extents*2 * background.transform.localScale.x;
 
 float screenAspect = (float) Screen.width / (float) Screen.height;
 float cameraHeightHalf = GetComponent<Camera>().orthographicSize;
