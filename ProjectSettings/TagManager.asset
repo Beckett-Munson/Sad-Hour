@@ -9,6 +9,7 @@ TagManager:
   - Key
   - Enemy
   - Background
+  - Square
   layers:
   - Default
   - TransparentFX
